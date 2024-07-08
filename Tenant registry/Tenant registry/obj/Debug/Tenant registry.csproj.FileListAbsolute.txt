@@ -1,0 +1,10 @@
+C:\Users\parsa\Desktop\Morya\Tenant registry\Tenant registry\Tenant registry\bin\Debug\Tenant registry.exe.config
+C:\Users\parsa\Desktop\Morya\Tenant registry\Tenant registry\Tenant registry\bin\Debug\Tenant registry.exe
+C:\Users\parsa\Desktop\Morya\Tenant registry\Tenant registry\Tenant registry\bin\Debug\Tenant registry.pdb
+C:\Users\parsa\Desktop\Morya\Tenant registry\Tenant registry\Tenant registry\obj\Debug\Tenant registry.csproj.AssemblyReference.cache
+C:\Users\parsa\Desktop\Morya\Tenant registry\Tenant registry\Tenant registry\obj\Debug\Tenant_registry.Form1.resources
+C:\Users\parsa\Desktop\Morya\Tenant registry\Tenant registry\Tenant registry\obj\Debug\Tenant_registry.Properties.Resources.resources
+C:\Users\parsa\Desktop\Morya\Tenant registry\Tenant registry\Tenant registry\obj\Debug\Tenant registry.csproj.GenerateResource.cache
+C:\Users\parsa\Desktop\Morya\Tenant registry\Tenant registry\Tenant registry\obj\Debug\Tenant registry.csproj.CoreCompileInputs.cache
+C:\Users\parsa\Desktop\Morya\Tenant registry\Tenant registry\Tenant registry\obj\Debug\Tenant registry.exe
+C:\Users\parsa\Desktop\Morya\Tenant registry\Tenant registry\Tenant registry\obj\Debug\Tenant registry.pdb
