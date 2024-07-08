@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lbTenantregistry = new System.Windows.Forms.Label();
             this.panLicense = new System.Windows.Forms.Panel();
             this.panLeaseend = new System.Windows.Forms.Panel();
             this.panLatency = new System.Windows.Forms.Panel();
@@ -43,14 +45,12 @@
             this.lbCollection = new System.Windows.Forms.Label();
             this.lbNewcontract = new System.Windows.Forms.Label();
             this.lbAssetregistry = new System.Windows.Forms.Label();
-            this.lbTenantregistry = new System.Windows.Forms.Label();
             this.panTopbar = new System.Windows.Forms.Panel();
             this.picProfile = new System.Windows.Forms.PictureBox();
             this.panOptions = new System.Windows.Forms.Panel();
             this.panOpt3 = new System.Windows.Forms.Panel();
             this.panOpt2 = new System.Windows.Forms.Panel();
             this.panOpt1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.txtLastname_tenant = new System.Windows.Forms.TextBox();
             this.panLastname_tenant = new System.Windows.Forms.Panel();
             this.txtName_tenant = new System.Windows.Forms.TextBox();
@@ -79,10 +79,10 @@
             this.rdbtnMarried = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panTopbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picProfile)).BeginInit();
             this.panOptions.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmrBudget)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmrOccupantnumber)).BeginInit();
             this.SuspendLayout();
@@ -108,6 +108,26 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 539);
             this.panel1.TabIndex = 3;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.WindowText;
+            this.panel3.Controls.Add(this.lbTenantregistry);
+            this.panel3.Location = new System.Drawing.Point(7, 17);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(190, 29);
+            this.panel3.TabIndex = 4;
+            // 
+            // lbTenantregistry
+            // 
+            this.lbTenantregistry.AutoSize = true;
+            this.lbTenantregistry.Font = new System.Drawing.Font("Franklin Gothic Medium", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTenantregistry.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(132)))), ((int)(((byte)(47)))));
+            this.lbTenantregistry.Location = new System.Drawing.Point(9, 2);
+            this.lbTenantregistry.Name = "lbTenantregistry";
+            this.lbTenantregistry.Size = new System.Drawing.Size(110, 24);
+            this.lbTenantregistry.TabIndex = 0;
+            this.lbTenantregistry.Text = "Kiracı kayıdı";
             // 
             // panLicense
             // 
@@ -231,17 +251,6 @@
             this.lbAssetregistry.TabIndex = 0;
             this.lbAssetregistry.Text = "Mülk kayıdı";
             // 
-            // lbTenantregistry
-            // 
-            this.lbTenantregistry.AutoSize = true;
-            this.lbTenantregistry.Font = new System.Drawing.Font("Franklin Gothic Medium", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTenantregistry.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(132)))), ((int)(((byte)(47)))));
-            this.lbTenantregistry.Location = new System.Drawing.Point(9, 2);
-            this.lbTenantregistry.Name = "lbTenantregistry";
-            this.lbTenantregistry.Size = new System.Drawing.Size(110, 24);
-            this.lbTenantregistry.TabIndex = 0;
-            this.lbTenantregistry.Text = "Kiracı kayıdı";
-            // 
             // panTopbar
             // 
             this.panTopbar.BackColor = System.Drawing.SystemColors.ControlDark;
@@ -298,15 +307,6 @@
             this.panOpt1.Name = "panOpt1";
             this.panOpt1.Size = new System.Drawing.Size(25, 5);
             this.panOpt1.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.WindowText;
-            this.panel3.Controls.Add(this.lbTenantregistry);
-            this.panel3.Location = new System.Drawing.Point(7, 17);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(190, 29);
-            this.panel3.TabIndex = 4;
             // 
             // txtLastname_tenant
             // 
@@ -486,9 +486,9 @@
             this.lbBudget.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbBudget.Location = new System.Drawing.Point(630, 242);
             this.lbBudget.Name = "lbBudget";
-            this.lbBudget.Size = new System.Drawing.Size(37, 21);
+            this.lbBudget.Size = new System.Drawing.Size(53, 21);
             this.lbBudget.TabIndex = 9;
-            this.lbBudget.Text = "Adı:";
+            this.lbBudget.Text = "Butçe:";
             this.lbBudget.UseMnemonic = false;
             // 
             // panBudget
@@ -507,7 +507,7 @@
             0,
             0,
             0});
-            this.nmrBudget.Location = new System.Drawing.Point(673, 241);
+            this.nmrBudget.Location = new System.Drawing.Point(689, 241);
             this.nmrBudget.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -520,7 +520,7 @@
             0});
             this.nmrBudget.Name = "nmrBudget";
             this.nmrBudget.ReadOnly = true;
-            this.nmrBudget.Size = new System.Drawing.Size(324, 20);
+            this.nmrBudget.Size = new System.Drawing.Size(308, 20);
             this.nmrBudget.TabIndex = 16;
             this.nmrBudget.Value = new decimal(new int[] {
             1500,
@@ -642,11 +642,11 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panTopbar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picProfile)).EndInit();
             this.panOptions.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmrBudget)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmrOccupantnumber)).EndInit();
             this.ResumeLayout(false);
